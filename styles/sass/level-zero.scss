@@ -86,6 +86,9 @@
 
 #container-level-zero .nav-link a{
 	padding: 0 10px;
+	&:hover {
+		color: #fe9122;
+	}
 	@include breakpoint(mama-bear) {
 		padding: 0 5px;
 	}
