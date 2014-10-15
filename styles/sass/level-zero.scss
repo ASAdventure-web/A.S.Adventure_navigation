@@ -123,10 +123,16 @@
 	&.fr_fix{
 		left: 30%;
 	}
+	&.en_fix{
+		left: 15%;
+	}
 	@include breakpoint(mama-bear) {
 		left: 40.5%;
 		&.fr_fix{
 			left: 40%;
+		}
+		&.en_fix{
+			left: 21.5%;
 		}
 	}
 	@include breakpoint(stiff-mama-bear) {
@@ -134,21 +140,33 @@
 		&.fr_fix{
 			left: 45.5%;
 		}
+		&.en_fix{
+			left: 25.5%;
+		}
 	}
 }
 #container-level-zero .nav-link.url-look {
 	left: 41.5%;
 	position: absolute;
+	&.en_fix{
+		left: 22.5%;
+	}
 	@include breakpoint(mama-bear) {
 		left: 54%;
 		&.fr_fix{
 			left: 55%;
+		}
+		&.en_fix{
+			left: 32%;
 		}
 	}
 	@include breakpoint(stiff-mama-bear) {
 		left: 61%;
 		&.fr_fix{
 			left: 62%;
+		}
+		&.en_fix{
+			left: 38.5%;
 		}
 	}
 
@@ -159,16 +177,25 @@
 	&.fr_fix {
 		left: 53%;
 	}
+	&.en_fix{
+		left: 34%;
+	}
 	@include breakpoint(mama-bear) {
 		left: 70%;
 		&.fr_fix{
 			left: 70%;
+		}
+		&.en_fix{
+			left: 49%;
 		}
 	}
 	@include breakpoint(stiff-mama-bear) {
 		left: 79.5%;
 		&.fr_fix{
 			left: 79%;
+		}
+		&.en_fix{
+			left: 59.5%;
 		}
 	}
 
