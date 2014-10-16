@@ -129,6 +129,9 @@
 	&.uk_fix{
 		left: 0;
 	}
+	&.de_fix{
+		left: 0;
+	}
 	@include breakpoint(mama-bear) {
 		left: 40.5%;
 		&.fr_fix{
@@ -139,6 +142,9 @@
 		}
 		&.uk_fix{
 		left: 0%;
+		}
+		&.de_fix{
+		left: 0;
 		}
 	}
 	@include breakpoint(stiff-mama-bear) {
@@ -152,6 +158,9 @@
 		&.uk_fix{
 		left: 0%;
 		}
+		&.de_fix{
+		left: 0;
+		}
 	}
 }
 #container-level-zero .nav-link.url-look {
@@ -163,6 +172,9 @@
 	&.uk_fix{
 		left: 8%;
 	}
+	&.de_fix{
+		left: 12%;
+		}
 	@include breakpoint(mama-bear) {
 		left: 54%;
 		&.fr_fix{
@@ -173,7 +185,10 @@
 		}
 		&.uk_fix{
 		left: 10%;
-	}
+		}
+		&.de_fix{
+		left: 16%;
+		}
 	}
 	@include breakpoint(stiff-mama-bear) {
 		left: 61%;
@@ -185,7 +200,10 @@
 		}
 		&.uk_fix{
 		left: 12%;
-	}
+		}
+		&.de_fix{
+		left: 20%;
+		}
 	}
 
 }
@@ -201,6 +219,9 @@
 	&.uk_fix{
 		left: 20%;
 	}
+	&.de_fix{
+		left: 24%;
+	}
 	@include breakpoint(mama-bear) {
 		left: 70%;
 		&.fr_fix{
@@ -211,7 +232,10 @@
 		}
 		&.uk_fix{
 		left: 26%;
-	}
+		}
+		&.de_fix{
+		left: 32%;
+		}
 	}
 	@include breakpoint(stiff-mama-bear) {
 		left: 79.5%;
@@ -223,6 +247,9 @@
 		}
 		&.uk_fix{
 		left: 31%;
+		}
+		&.de_fix{
+		left: 40%;
 		}
 	}
 
