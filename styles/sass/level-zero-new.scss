@@ -1,4 +1,5 @@
 @import "breakpoints";
+@import url(http://fonts.googleapis.com/css?family=Rochester);
 
 /*====================================
 =  		  A.S.Adventure topnav       =
@@ -12,7 +13,9 @@
 
 
 #container-level-zero .special-url a{
-	background: #fff; 
+	background: #fff;
+	font-family: 'Rochester', cursive;
+	color: #ce2727;
 }
 
 /** ------- **/
