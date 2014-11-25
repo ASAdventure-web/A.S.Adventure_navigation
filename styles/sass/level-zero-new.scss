@@ -1,7 +1,8 @@
 @import "breakpoints";
+@import url(http://fonts.googleapis.com/css?family=Rochester);
 
 /*====================================
-=            Styles - navigation            =
+=  		  A.S.Adventure topnav       =
 ====================================*/
 
 /**
@@ -10,13 +11,11 @@
 *
 **/
 
-/** SPECIAL URL EFFECT **/
-
-// Add special style to element
-// add .sepcai-url to html and style css below
 
 #container-level-zero .special-url a{
-	background: #fff; 
+	background: #fff;
+	font-family: 'Rochester', cursive;
+	color: #ce2727;
 }
 
 /** ------- **/
@@ -102,4 +101,4 @@
 	}
 }
 
-/*-----  End of Section urls  ------*/
+/*-----  End of topnav  ------*/
