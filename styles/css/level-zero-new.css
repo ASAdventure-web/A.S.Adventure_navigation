@@ -61,7 +61,8 @@
   color: #505050;
   text-decoration: none;
   text-align: center;
-  background: transparent; }
+  background: transparent;
+  font-family: "Open Sans", Helvetica, sans-serif; }
   #container-level-zero ul li a:hover {
     color: #fe9122; }
   #container-level-zero ul li a:visited {
